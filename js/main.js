@@ -1,3 +1,5 @@
+console.log("JS funcionando");
+
 particlesJS('particles-js', {
   "particles": {
     "number": {"value":80,"density":{"enable":true,"value_area":800}},
@@ -18,3 +20,13 @@ particlesJS('particles-js', {
   },
   "retina_detect": true
 });
+
+// Flecha scroll suave
+const arrow = document.querySelector('.scroll-down');
+const nextSection = document.getElementById('Presentation');
+
+arrow.addEventListener('click', () => {
+  nextSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+/

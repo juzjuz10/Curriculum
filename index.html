@@ -6,49 +6,73 @@
   <title>Juliana Currículum</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+ 
+  />
 </head>
+
+
 <body>
   <div id="header">
     <div id="particles-js"></div>
     <div class="overlay">
-      <h1>Juliana Burgos</h1>
+    <h1 class="animate__animated animate__pulse">Juliana Burgos</h1>
     </div>
+
+<div class="scroll-down">
+  <span class="arrow">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+      <path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71L8.46 9.17a1 1 0 0 0-1.41 0a1 1 0 0 0 0 1.42l4.24 4.24a1 1 0 0 0 1.42 0L17 10.59a1 1 0 0 0 0-1.42Z" fill="currentColor"/>
+    </svg>
+  </span>
+</div>
+
+
   </div>
 
-  
-  <div id="Presentation">
+  <!-- Parte sobre mí!-->
+<div id="Presentation">
   <div class="description">
-    <h2>Sobre mí</h2>
-    <p>Hola, soy Juliana, apasionada por el diseño web y la programación. Me encanta crear proyectos creativos y aprender cosas nuevas cada día.</p>
+    <h2 id="sobre-mi">Sobre mí</h2>
+    <p id="sobre-mi-texto">Hola, soy Juliana, apasionada por el diseño web y la programación. Me encanta crear proyectos creativos y aprender cosas nuevas cada día.</p>
   </div>
   <div class="profile-image">
     <img src="img/foto.jpg" alt="Foto de Juliana">
   </div>
 </div>
 
-
+<!-- Parte de descripción de proyectos!-->
 <div id="proyectos">
-  <h2>Mis Proyectos</h2>
-  <div class="projects-container">
-    <div class="project-card">
+  <h2>Proyectos</h2>
+ <div class="card-grid">
+    <div class="card">
       <a href="https://github.com/DanRCM/ContactManager" target="_blank">
+        <div class="card-background">
         <img src="img/proyecto_agenda.png" alt="Proyecto 1">
+     </div>
       </a>
       <h3>Contact Manager </h3>
       <p>Aplicación de gestión de contactos que permite crear, visualizar, editar y eliminar contactos con múltiples atributos</p>
     </div>
 
-    <div class="project-card">
+
+
+   <div class="card">
       <a href="https://github.com/raydan90s/PROYECTOSEGUNDOPARCIAL" target="_blank">
+             <div class="card-background">
         <img src="img/proyecto_finazas.png" alt="Proyecto 2">
+      </div>
       </a>
       <h3>Sistema de Gestión Financiera Personal</h3>
       <p>Aplicación integral para el control de finanzas personales.</p>
     </div>
 
-    <div class="project-card">
+
+    <div class="card">
       <a href="https://sites.google.com/fiec.espol.edu.ec/burgospantajuliana/inicio" target="_blank">
+        <div class="card-background">
         <img src="img/proyecto_pagina.png" alt="Proyecto 3">
+      </div>
       </a>
       <h3>Página web</h3>
       <p>es presentar de forma atractiva la información del restaurante IHOP, incluyendo su historia, menú y promociones</p>
